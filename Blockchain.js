@@ -1,19 +1,18 @@
+import Block from "./Block";
+
 class Blockchain{
-    timestamp;
-    data;
-    hash;
-    previousHash;
-    height;
-    nonce;
+chain;
 
-constructor(timestamp, data, hash, previousHash, height, nonce){
-    this.timestamp = timestamp;
-    this.data = data;
-    this.hash = hash;
-    this.previousHash = previousHash;
-    this.height = height;
-    nonce = 0; 
+constructor(){
+    this.chain = [];
+    this.init();
+}
+init(){
+this.chain(new Block(Date.now(), "Dana", "", "0", "0"));
+this.chain.push(Block);
+console.log(this.chain);
 }
 
 
 }
+export default Blockchain;
