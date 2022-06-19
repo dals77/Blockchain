@@ -24,6 +24,7 @@ mine(difficulty){
  console.log("Block hashed at: " + count + " Hashes: " + this.hash);
 }
 }
+// needs fixing
      /*for(let i=0; i<10000000; i++){
     let hashed =sha256(this.timestamp + this.data + this.previousHash + this.height + this.nonce).toString();
     console.log(hashed);
