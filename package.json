@@ -2,5 +2,25 @@
   "dependencies": {
     "crypto-js": "^4.1.1"
   },
-  "type": "module"
+  "type": "module",
+  "name": "blockchain",
+  "version": "1.0.0",
+  "main": "Blockchain.js",
+  "devDependencies": {
+    "hardhat": "^2.9.9"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dals77/blockchain.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dals77/blockchain/issues"
+  },
+  "homepage": "https://github.com/dals77/blockchain#readme",
+  "description": ""
 }

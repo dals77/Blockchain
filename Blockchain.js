@@ -10,7 +10,7 @@ constructor(){
 }
 
 init(){
-   return new Block("0", JSON.stringify(Date.now()),"G BLOCK", "");
+   return new Block(0, JSON.stringify(Date.now()),"G BLOCK", "");
   
 }
 LastBlock(){
@@ -32,11 +32,11 @@ validateBlockchain(){
     }
     return true;
 }
-
 }
+
 let COIN = new Blockchain();
 COIN.addBlock(new Block(1, JSON.stringify(Date.now()), "BLOCK 1"));
+COIN.addBlock(new Block(2, JSON.stringify(Date.now()), "BLOCK 2"));
 console.log(COIN);
-
 console.log("Is Blockchain valid?" + COIN.validateBlockchain());
 export default Blockchain;
